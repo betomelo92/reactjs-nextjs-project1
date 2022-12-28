@@ -1,4 +1,5 @@
-import '@testing-library/jest-dom'
+/* eslint-disable react/react-in-jsx-scope */
+/* eslint-disable no-undef */
 import { render, screen } from '@testing-library/react';
 import { Posts } from '.'
 
