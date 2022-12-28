@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles.css';
+import '@testing-library/jest-dom'
 
 import { Home } from './templates/Home';
+
 
 ReactDOM.render(
   <React.StrictMode>
